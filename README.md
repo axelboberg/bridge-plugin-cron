@@ -6,11 +6,12 @@ Cron-based triggers for Bridge. This plugin lets you schedule playout based on c
 - [How to use](#how-to-use)
   - [Enable a trigger](#enable-a-trigger)
   - [Disable a trigger](#disable-a-trigger)
+- [FAQ](#faq)
 
 ## Installation
 Download the latest release and put the whole (unzipped) folder inside of Bridge's plugin folder. Find the plugin directory by opening Bridge and going to `Plugins > Manage plugins` in the menu bar.
 
-The complete structure should look like the following:
+The resulting structure should look like the following:
 ```
 - bridge plugin directory
     |- cron-bridge-plugin
@@ -35,7 +36,7 @@ This plugin provides a new item type, the CRON task. It can be added to the rund
 Play it like any other item.
 
 ### Disable a trigger
-Simply stop it in the rundown.
+Stop it like any other item.
 
 ## FAQ
 
