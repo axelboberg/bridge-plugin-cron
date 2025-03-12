@@ -1,0 +1,44 @@
+{
+  "name": "bridge-plugin-cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/package.js && webpack --config webpack.config.js"
+  },
+  "engines": {
+    "bridge": "^0.0.1"
+  },
+  "author": "Axel Boberg (git@axelboberg.se)",
+  "license": "MIT",
+  "contributes": {
+    "types": [
+      {
+        "id": "bridge.plugin.cron.trigger",
+        "name": "Cron trigger",
+        "inherits": "bridge.types.delayable",
+        "category": "Cron",
+        "properties": {
+          "cron.expression": {
+            "name": "Cron expression",
+            "type": "string",
+            "default": "*/5 * * * *",
+            "ui.group": "Cron"
+          },
+          "cron.target": {
+            "name": "Target",
+            "type": "string",
+            "default": "",
+            "ui.group": "Cron"
+          }
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "cron": "^4.1.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
