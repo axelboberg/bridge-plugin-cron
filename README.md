@@ -11,10 +11,12 @@ Cron-based triggers for Bridge. This plugin lets you schedule playout based on c
 ## Installation
 Download the latest release and put the whole (unzipped) folder inside of Bridge's plugin folder. Find the plugin directory by opening Bridge and going to `Plugins > Manage plugins` in the menu bar.
 
+[Releases](https://github.com/axelboberg/bridge-plugin-cron/releases)
+
 The resulting structure should look like the following:
 ```
 - bridge plugin directory
-    |- cron-bridge-plugin
+    |- bridge-plugin-cron
         |- main.bundle.js
         |- package.json
 ```
