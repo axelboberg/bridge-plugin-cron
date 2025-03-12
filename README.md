@@ -1,5 +1,5 @@
-# cron-bridge-plugin
-Cron-based triggers for Bridge. This plugin let you schedule playout based on cron expressions.
+# bridge-plugin-cron
+Cron-based triggers for Bridge. This plugin lets you schedule playout based on cron expressions.
 
 ## Table of contents
 - [Installation](#installation)
